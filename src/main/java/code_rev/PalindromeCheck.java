@@ -15,9 +15,9 @@ public class PalindromeCheck {
         String reversed = new StringBuilder(cleanInput).reverse().toString();
 
         if (cleanInput.equals(reversed)) {
-            System.out.println("✅ '" + input + "' is a palindrome.");
+            System.out.println("✅ '" + input + "' this is a palindrome.");
         } else {
-            System.out.println("❌ '" + input + "' is not a palindrome.");
+            System.out.println("❌ '" + input + "'this is not a palindrome.");
         }
 
         scanner.close();
